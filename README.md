@@ -4,7 +4,7 @@
 
 This project conducts a comprehensive clustering analysis on a dataset containing patient medical history features to identify distinct patient groups based on their health characteristics. Various clustering algorithms are evaluated, including K-means, Gaussian Mixture Models (GMM), Hierarchical Clustering, and DBSCAN. The performance of each algorithm is assessed using Silhouette Score and Davies-Bouldin Index.
 
-## Dataset
+## Dataset [here](https://archive.ics.uci.edu/dataset/45/heart+disease)
 
 - The dataset used in this analysis includes numerical features representing various medical metrics of patients.
 - Data preprocessing steps include handling missing values, feature scaling, and selecting relevant features for clustering.
@@ -51,6 +51,6 @@ This project conducts a comprehensive clustering analysis on a dataset containin
 To run the analysis, clone this repository and execute the provided Python scripts in your preferred environment.
 
 ```bash
-git clone <[repository-url](https://github.com/DavidkingMazimpaka/heart-disease-analysis)>
+git clone <https://github.com/DavidkingMazimpaka/heart-disease-analysis>
 cd <heart-disease-analysis>
 python heart-disease_analysis.ipynb
